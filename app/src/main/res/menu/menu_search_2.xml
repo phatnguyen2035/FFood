@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item1"
+        android:title="Cơm" />
+    <item
+        android:id="@+id/item2"
+        android:title="Mỳ" />
+    <item
+        android:id="@+id/item3"
+        android:title="Bánh Mỳ" />
+    <item
+        android:id="@+id/item4"
+        android:title="Đồ Ăn Vặt" />
+    <item
+        android:id="@+id/item5"
+        android:title="Dồ Ăn Khác" />
+    <item
+        android:id="@+id/item6"
+        android:title="Trà Sữa" />
+    <item
+        android:id="@+id/item7"
+        android:title="Cà Phê" />
+    <item
+        android:id="@+id/item8"
+        android:title="Nước Ngọt" />
+    <item
+        android:id="@+id/item9"
+        android:title="Sữa" />
+    <item
+        android:id="@+id/item10"
+        android:title="Nước khác" />
+</menu>

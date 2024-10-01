@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orange">#F5643A</color>
+    <color name="nav_background_color">#FFFFFF</color>
+    <color name="selected_color">#F5643A</color>
+    <color name="default_color">#000000</color>
+    <color name="green_color">#4CAF50</color>
+    <color name="semi_transparent">#B3FFFFFF</color>
+    <color name="background_banana">#FEFAF6</color>
+    <color name="navbottombar_nochoose">#818181</color>
+    <!-- Các màu sắc mặc định -->
+    <color name="colorPrimary">#FF6200EE</color>
+    <color name="colorPrimaryDark">#FF3700B3</color>
+    <color name="colorAccent">#FF03DAC5</color>
+    <color name="background_dark">#272727</color>
+    <color name="background_new">#ECECEC</color>
+    <!-- Màu mới -->
+    <color name="button_background">#FF4081</color>
+    <color name="button_cancel_background">#FF6666</color>
+    <color name="edittext_background">#FFFFFF</color>
+    <color name="primary_text">#000000</color>
+    <color name="secondary_text">#757575</color>
+    <color name="background_light">#F2F2F2</color>
+
+    <!-- Custom colors -->
+    <color name="price_color">#FF5722</color> <!-- Orange/red -->
+    <color name="gray_light">#E0E0E0</color> <!-- Light gray for dividers -->
+
+    <!-- Additional colors if needed -->
+    <color name="button_background_pressed">#3700B3</color> <!-- Button color when pressed -->
+</resources>
+

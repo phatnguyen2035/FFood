@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background_new"
+    tools:context="fragment.OrdersCurrentFragment">
+
+    <!-- Header with Address Information -->
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/midtop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:cardCornerRadius="20dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="5dp"
+            android:padding="10dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+                <LinearLayout
+                    android:id="@+id/txt_edit_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:padding="0dp">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/baseline_edit_square_24"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@null"
+                    android:layout_marginHorizontal="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Thông tin giao hàng"
+                        android:layout_marginBottom="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/orange"
+                        android:gravity="center"
+                        android:textSize="16sp"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Họ và tên:                 "
+                            android:textSize="16sp"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:id="@+id/txt_name_order_curent"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Nguyễn Văn A"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Số điện thoại:          "
+                            android:textSize="16sp"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:id="@+id/txt_phone_order_curent"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0987654321"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Địa chỉ:                      "
+                            android:textSize="16dp"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:id="@+id/txt_address_order_curent"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Phòng 810, tầng 8, toà T"
+                            android:textSize="16sp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/mid"
+        android:layout_below="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="Giỏ hàng"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/orange"
+        ></TextView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E3E3E3"
+        android:layout_below="@+id/mid"/>
+
+
+    <!-- RecyclerView for Order Details -->
+    <RelativeLayout
+        android:id="@+id/rl_mid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/linear_layout_footer"
+        android:layout_below="@+id/mid">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcv_lits_order_details"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="0dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="0dp" />
+            <ImageView
+                android:id="@+id/img_card_empty"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="40dp"
+                android:src="@mipmap/image_cart_empty_icon"></ImageView>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E3E3E3"
+        android:layout_below="@+id/rl_mid"/>
+    <!-- Footer with Total Price and Order Button -->
+    <LinearLayout
+        android:id="@+id/linear_layout_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@null"
+        android:layout_marginTop="1dp"
+        android:paddingHorizontal="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingVertical="8dp">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txt_quantityProduct"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Tổng sản phẩm: "
+                    android:textColor="#3A3A3A"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtTotalPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0 đ"
+                android:textColor="@color/price_color"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_order_details"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/rounded_corners_orange"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đặt hàng"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

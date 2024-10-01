@@ -1,0 +1,185 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_new"
+    tools:context="fragment.StatisticalSellFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/custom_boder_top_admin"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="20dp">
+                    <TextView
+                        android:id="@+id/txt_menu_statistical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hôm nay: "
+                        android:textColor="#000000"
+                        android:textSize="16sp"></TextView>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/baseline_keyboard_arrow_down_24"></ImageView>
+                </LinearLayout>
+
+
+
+                <TextView
+                    android:id="@+id/txt_date_statistical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="30/6/2023"
+                    android:textColor="#000000"
+                    android:textSize="16sp"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_price"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Tổng đơn"
+                        android:textColor="#000000"
+                        android:textSize="16sp"></TextView>
+
+                    <TextView
+                        android:id="@+id/txt_quantity_order"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="40sp"></TextView>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/custom_price"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Đơn đã giao                     thành công"
+                            android:textColor="#4CAF50"
+                            android:textSize="16sp"></TextView>
+
+                        <TextView
+                            android:id="@+id/txtQuantityOrderConfirm"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textColor="#4CAF50"
+                            android:textSize="40sp"></TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/custom_price"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Đơn đã bị                         hủy bỏ"
+                            android:textColor="#FF0000"
+                            android:textSize="16sp"></TextView>
+
+                        <TextView
+                            android:id="@+id/txtQuantityOrderCanel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textColor="#FF0000"
+                            android:textSize="40sp"></TextView>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Tổng doanh thu"
+                    android:textSize="18sp"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_total_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.000 vnd"
+                    android:textColor="#F5643A"
+                    android:textSize="16sp"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

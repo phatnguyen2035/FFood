@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/background_new"
+    android:elevation="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:elevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bogoc_edittext"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12sp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp"
+                android:src="@drawable/icon_assignment_ind_signin" />
+            <EditText
+                android:id="@+id/txt_name_edit_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="Nhập họ và tên của bạn"
+                android:paddingVertical="12dp"
+                android:textSize="16sp"
+                android:textColor="@color/primary_text"
+                android:textColorHint="@color/secondary_text"
+                android:maxLength="40"
+                android:scrollHorizontally="true"
+                android:singleLine="true"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bogoc_edittext"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12sp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp"
+                android:src="@drawable/baseline_local_phone_xam" />
+            <EditText
+                android:id="@+id/txt_phone_edit_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="Nhập vào số điện thoại"
+                android:paddingVertical="12dp"
+                android:textSize="16sp"
+                android:textColor="@color/primary_text"
+                android:textColorHint="@color/secondary_text"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bogoc_edittext"
+            android:orientation="horizontal"
+            android:layout_marginBottom="18sp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="20dp"
+                android:src="@drawable/baseline_location_xam" />
+            <EditText
+                android:id="@+id/txt_address_edit_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="Nhập vào địa chỉ giao hàng"
+                android:paddingVertical="12dp"
+                android:textColor="@color/primary_text"
+                android:textColorHint="@color/secondary_text"
+                android:textSize="16sp"
+                android:maxLength="10"
+                android:scrollHorizontally="true"
+                android:singleLine="true"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/txt_update_edit_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_boder_update_user"
+                android:gravity="center"
+                android:text="Thay đổi"
+                android:textSize="16sp"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:id="@+id/txt_cancel_edit_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:gravity="center"
+                android:text="Trở về"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

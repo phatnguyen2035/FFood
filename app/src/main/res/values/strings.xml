@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Food</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="back_button_description">Quay lại</string>
+    <string name="star_rating">Đánh giá sao</string>
+    <string name="decrease_quantity">Giảm số lượng</string>
+    <string name="increase_quantity">Tăng số lượng</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- res/values/strings.xml -->
+
+    <string name="mieutasp">
+        1 - Bánh tráng Dẻo Phơi Sương mềm,dẻo dai ngon \n2 - Muối Tôm Nhuyễn siêu tôm, loại đặc biệt ngon, lạc, cay, thơm tôm \n3 - Ớt Rim mật ong siêu cay thơm tỏi...
+    </string>
+    <string name="terms_and_conditions">1. Chấp Nhận Điều Khoản\n\nBằng việc đăng ký tài khoản tại [Tên Ứng Dụng/Trang Web], bạn đồng ý tuân thủ và bị ràng buộc bởi các điều khoản và điều kiện này. \n
+\n2. Đăng Ký Tài Khoản\n\nBạn phải cung cấp thông tin chính xác, đầy đủ và kịp thời trong quá trình đăng ký tài khoản.\nBạn phải ít nhất 18 tuổi hoặc có sự đồng ý của phụ huynh hoặc người giám hộ hợp pháp nếu dưới 18 tuổi.\n
+\n3. Bảo Mật Tài Khoản\n\nBạn có trách nhiệm bảo mật thông tin đăng nhập tài khoản của mình.\nBạn phải thông báo ngay lập tức cho chúng tôi nếu phát hiện bất kỳ hoạt động trái phép nào liên quan đến tài khoản của bạn.\n
+\n4. Quyền Sử Dụng\n\nChúng tôi có quyền từ chối, tạm ngừng hoặc chấm dứt tài khoản của bạn nếu bạn vi phạm các điều khoản này.\nBạn không được sử dụng tài khoản của mình cho các hoạt động bất hợp pháp hoặc không được phép.\n
+\n5. Thay Đổi Điều Khoản\n\nChúng tôi có quyền thay đổi các điều khoản này vào bất kỳ thời điểm nào. Các thay đổi sẽ có hiệu lực ngay khi được đăng trên trang web của chúng tôi. Bạn nên thường xuyên kiểm tra để cập nhật các thay đổi.\n
+\n6. Quyền Riêng Tư\n\nChúng tôi cam kết bảo vệ quyền riêng tư của bạn và sẽ không chia sẻ thông tin cá nhân của bạn với bên thứ ba mà không có sự đồng ý của bạn, trừ khi pháp luật yêu cầu.\n
+\n7. Trách Nhiệm Của Người Sử Dụng\n\nBạn đồng ý không sử dụng tài khoản của mình để phát tán các nội dung vi phạm pháp luật, xúc phạm, hay gây hại cho người khác.\nBạn chịu trách nhiệm hoàn toàn về tất cả các hoạt động diễn ra dưới tài khoản của mình.\n
+\n8. Giới Hạn Trách Nhiệm\n\nChúng tôi không chịu trách nhiệm về bất kỳ thiệt hại nào phát sinh từ việc sử dụng tài khoản của bạn.\n
+\n9. Liên Hệ\n\nNếu bạn có bất kỳ câu hỏi nào về điều khoản này, vui lòng liên hệ với chúng tôi qua [Địa chỉ Email hoặc Số Điện Thoại].\nBằng cách nhấn vào nút "Đăng Ký", bạn xác nhận rằng bạn đã đọc, hiểu và đồng ý với các điều khoản và điều kiện trên.\n
+    </string>
+
+</resources>

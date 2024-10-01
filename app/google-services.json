@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "466891561091",
+    "project_id": "du-an-1-aae87",
+    "storage_bucket": "du-an-1-aae87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466891561091:android:98594a183ef53a2ae8a3b6",
+        "android_client_info": {
+          "package_name": "com.example.du_an_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXAKELiSqOFfaYDaHVFe8xZ2BjmM8hVbA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

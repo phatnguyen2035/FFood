@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@color/background_new">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true">
+                <ImageView
+                    android:id="@+id/iv_back"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:padding="5dp"
+                    android:src="@drawable/baseline_arrow_back_ios_new_24"
+                    android:background="@drawable/bg_ic_back"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_centerInParent="true">
+
+                <EditText
+                    android:id="@+id/edt_role"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:textColor="@color/orange"
+                    android:text="1"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:gravity="center"></EditText>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_new"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Id User:"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/edt_id_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:text="1"
+                android:textColor="@color/black"
+                android:textSize="18sp"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Account:"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/edt_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="admin"
+                android:textColor="@color/black"
+                android:textSize="18sp"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Password:"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/edt_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="1"
+                android:textSize="18sp"
+                android:textColor="@color/black"></EditText>
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#C5C5C5"
+            android:layout_marginVertical="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Có thể chỉnh sửa thông tin"
+            android:textSize="14sp"
+            android:layout_marginBottom="10dp"></TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"></TextView>
+
+            <EditText
+                android:id="@+id/edt_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="Nguyen Hong Phong"
+                android:textSize="18sp"
+                android:textColor="@color/black"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Phone:"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/edt_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="0123456789"
+                android:textSize="18sp"
+                android:textColor="@color/black"></EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Cccd:"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/edt_cccd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="88888888888888"
+                android:textColor="@color/black"
+                android:textSize="18sp"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Bán Hàng"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+            <Switch
+                android:id="@+id/switch_role"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></Switch>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_suspend_account"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Tạm ngưng                    tài khoản"
+                android:layout_marginRight="10dp"
+                app:backgroundTint="#B52727"
+                android:textColor="#FFFFFF"/>
+
+            <Button
+                android:id="@+id/btn_update"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Cập nhập                 thông tin"
+                app:backgroundTint="#4CAF50"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

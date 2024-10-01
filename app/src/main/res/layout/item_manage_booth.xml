@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:id="@+id/ll_magane_booth"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    app:cardCornerRadius="20dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <androidx.cardview.widget.CardView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="4dp"
+            app:cardCornerRadius="125dp"
+            android:layout_gravity="center">
+            <ImageView
+                android:id="@+id/img_image_shop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/image_booth"
+                android:scaleType="centerCrop">
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_marginStart="10dp">
+
+            <TextView
+                android:id="@+id/txt_nameShop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name: Gian Hàng Của Tôi"
+                android:textSize="16sp"/>
+            <TextView
+                android:id="@+id/txt_addressShop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address: Tầng 8"
+                android:textSize="16sp"/>
+            <TextView
+                android:id="@+id/txt_StatusShop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Status: Chờ xác nhận"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/txt_idShop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="idShop: 1"
+                android:textSize="16sp"/>
+            <TextView
+                android:id="@+id/txt_idUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="idUser: 1"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txt_manage_ok_shop"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/baseline_lock_open_24"
+            android:textColor="@color/white"></TextView>
+        <TextView
+            android:id="@+id/txt_manage_canel_shop"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/baseline_lock_outline_24"
+            android:textColor="@color/white"></TextView>
+    </LinearLayout>
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

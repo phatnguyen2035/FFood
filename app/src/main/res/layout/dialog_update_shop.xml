@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/background_new"
+    android:elevation="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:elevation="8dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            app:cardCornerRadius="1000dp">
+
+            <ImageView
+                android:id="@+id/img_image_editShop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></ImageView>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/txt_select_edit_shop"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/baseline_add_photo_alternate_24"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:textColor="@color/primary_text"
+            android:textColorHint="@color/secondary_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Số điện thoại"
+            android:layout_marginVertical="5dp"/>
+        <EditText
+            android:id="@+id/txt_phone_edit_shop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bogoc_edittext"
+            android:hint="Nhập vào số điện thoại"
+            android:padding="15dp"
+            android:textSize="16sp"
+            android:textColor="@color/primary_text"
+            android:textColorHint="@color/secondary_text" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Địa chỉ"
+            android:layout_marginVertical="5dp"/>
+        <EditText
+            android:id="@+id/txt_address_edit_shop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bogoc_edittext"
+            android:hint="Nhập vào địa chỉ cửa hàng"
+            android:padding="15dp"
+            android:textSize="16sp"
+            android:textColor="@color/primary_text"
+            android:textColorHint="@color/secondary_text" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/txt_update_edit_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_boder_update_user"
+                android:gravity="center"
+                android:text="Thay đổi"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"/>
+            <TextView
+                android:id="@+id/txt_cancel_edit_shop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:gravity="center"
+                android:text="Trở về"
+
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

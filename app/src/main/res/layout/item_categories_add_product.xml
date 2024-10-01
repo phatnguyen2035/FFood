@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="8dp"
+    android:paddingBottom="8dp"
+    android:background="@android:color/white"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/img_icon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/img_comchienduongchau"
+                android:foreground="@drawable/foreground_gradient"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/txt_name_categories_add_product"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:text="Bánh Canh Cua"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"/>
+    </RelativeLayout>
+</LinearLayout>

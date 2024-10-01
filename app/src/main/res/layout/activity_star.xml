@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StarActivity"
+    android:id="@+id/activityStar"
+    android:background="@color/background_new">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/logof" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="-50dp"
+                android:gravity="center"
+                android:text="App đặt món ăn"
+                android:textColor="@color/orange"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:gravity="center"
+                android:text="dành cho giảng viên và sinh viên FPL"
+                android:textColor="@color/orange"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <LinearLayout
+                android:id="@+id/linearLayoutBottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="20dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnLogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:backgroundTint="#F5643A"
+                    android:padding="10dp"
+                    android:text="Đăng nhập"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnSignin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#FFFFFF"
+                    android:padding="10dp"
+                    android:text="Đăng ký"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

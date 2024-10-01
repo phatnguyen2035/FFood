@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragment.ShopIsLockedFragment"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/background_new">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shop bạn đã bị khoá"
+        android:textColor="#F20000"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Liên hệ admin để được giải quyết"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mail: phongnhps37470@fpt.edu.vn"
+        android:textColor="#555353"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+</LinearLayout>

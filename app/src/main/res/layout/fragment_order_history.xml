@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragment.OrderHistoryFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <HorizontalScrollView
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_order_confirmation"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/bg_lichsu_xam"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:text="Chờ Xác Nhận"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txt_order_in_delivery"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/bg_lichsu_xam"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:text="Đang Giao"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txt_order_delivered"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/bg_lichsu_xam"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Thành Công"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txt_order_cancelled"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/bg_lichsu_xam"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Đơn bị hủy"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv_lits_order_history"
+        android:layout_below="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</RelativeLayout>
